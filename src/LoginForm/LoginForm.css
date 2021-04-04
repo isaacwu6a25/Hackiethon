@@ -1,0 +1,112 @@
+#login-details {
+  position: relative;
+  background: #F76C6C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0px;
+  height: 40vh;
+}
+
+h1 {
+  color: #F8E9A1;
+  font-size: 70px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+}
+
+#logout {
+  /* position: sticky; */
+  border: none;
+  background: none;
+  color: #6c3131;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  transition-duration: 0.2s;
+}
+
+#logout:hover {
+  cursor: pointer;
+  background: #ffb0b0;
+}
+
+.username {
+  color: #6c3131;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#username {
+  color: #6c3131;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#login {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #24305E;
+  background-color: #374785;
+}
+
+.login {
+  font-size: 100px;
+  color: #F76C6C;
+  margin: 5px;
+}
+
+.title-text {
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 5px;
+  color: #F8E9A1;
+}
+
+#login-input {
+  margin: 40px;
+  height: 50px;
+  width: 350px;
+  border-radius: 50px;
+  background-color: #24305E;
+  border-color: transparent;
+  color: #c4eaff;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#login-button {
+  height: 40px;
+  width: 150px;
+  border-radius: 30px;
+  background-color: #F76C6C;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  border-color: transparent;
+  transition-duration: 0.2s;
+}
+
+
+#login-button:hover {
+  background-color: #F8E9A1;
+  cursor: pointer;
+}

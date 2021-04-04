@@ -1,0 +1,19 @@
+#chat-input {
+  margin-top: 10px;
+  padding-top: 5px;
+  bottom: 0;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  text-align: left;
+}
+
+#input {
+  width: 70%;
+  height: 30px;
+  border-radius: 30px;
+  border-color: transparent;
+  font-size: 20px;
+  text-align: center;
+}

@@ -1,0 +1,20 @@
+#chat-content {
+  overflow: scroll;
+  width: 80%;
+  height: 70vh;
+}
+
+.msg {
+  display: flex;
+  flex-direction: column;
+  font-size: 27px;
+  background: #F8E9A1;
+  background-color: #F8E9A1;
+  color: #c84f4f;
+  margin: 25px;
+  padding: 10px;
+  width: 50%;
+  border-radius: 40px;
+  text-align: stretch;
+  font-weight: 500;
+}

@@ -1,0 +1,43 @@
+html,
+body {
+  height: 100%;
+}
+
+.App {
+  margin: 0px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#bulk {
+  display: flex;
+  flex-direction: column;
+  width: 80vh;
+  height: 100vh;
+  /* position: sticky; */
+}
+
+#chat-stuff {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  background-color: #A8D0E6;
+}
+
+.container {
+  display: flex;
+}
+
+#heading {
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  margin: 0;
+}
